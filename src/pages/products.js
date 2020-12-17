@@ -13,5 +13,11 @@ import { store } from '../store.js';
 import display from '../displayProducts.js';
 import { getElement } from '../utils.js';
 
-const productsContainer = getElement('.products-container')
-window.addEventListener('DOMContentLoaded',display(store,productsContainer))
+const productsContainer = getElement('.products-container');
+const loading = getElement('.page-loading');
+
+display(store,productsContainer);
+setupSearch(store);
+setupCompanies(store);
+loading.style.display = 'none';
+
