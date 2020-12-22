@@ -1,3 +1,4 @@
 # Amilex-Furniture-Store-JS-Practice-Project
 
-amilex-furniture.netlify.app
+
+https://amilex-furniture.netlify.app/
